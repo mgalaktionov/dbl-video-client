@@ -4,7 +4,12 @@
  docker-compose up 
 ```
 # загружает gradle wrapper
-`./gradlew wrapper`
-
+```shell
+ ./gradlew wrapper
+```
 # сборка проекта, прогон unit-тестов, запуск приложения
-`./gradlew clean build bootRun`
+```shell
+./gradlew clean build bootRun
+```
+
+После успешного запуска приложение доступно по адресу `localhost:8443`
