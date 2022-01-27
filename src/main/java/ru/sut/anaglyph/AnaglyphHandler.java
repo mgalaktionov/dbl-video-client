@@ -21,13 +21,6 @@ import org.springframework.web.socket.handler.TextWebSocketHandler;
 import java.io.IOException;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * Pointer Detector handler (application and media logic).
- *
- * @author Boni Garcia (bgarcia@gsyc.es)
- * @author David Fernandez (d.fernandezlop@gmail.com)
- * @since 5.0.0
- */
 public class AnaglyphHandler extends TextWebSocketHandler {
 
   private final Logger log = LoggerFactory.getLogger(AnaglyphHandler.class);
